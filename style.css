@@ -1,0 +1,23 @@
+.background-image {
+    background-image: url('novedades.webp'); /* Asegúrate de poner la ruta correcta a la imagen */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+
+          .background-image div {
+              background-color: rgba(0,0,0, .75);
+          }
+
+          .fixed{
+              position: fixed;
+          }
+          h2 {
+        font-size: 1.5rem; /* Tamaño predeterminado */
+    }
+    @media (min-width: 768px) { /* En pantallas medianas y mayores */
+      h2 {
+        font-size: 2rem; /* Tamaño más grande */
+      }
+    }
+
